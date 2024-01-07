@@ -1,8 +1,8 @@
-# GEOG863 - Adding Search & Query to a US Wildfires Map 
+# GEOG863: Adding Search & Query to a US Wildfires Map 
 
 
 <b>Project Description:</b><br>
-"US Wildfire Map with Search and Query Functionality"
+<b>"US Wildfire Map with Search and Query Functionality"</b>
 
 This project aims to provide an interactive and informative map visualization of wildfires across the United States from the years 2000 to 2018. Leveraging the ArcGIS API for JavaScript, the map incorporates advanced features such as a Class Breaks Renderer for dynamically categorizing wildfire sizes, a search widget for querying specific wildfire incidents, and a legend for enhanced map interpretation.
 
