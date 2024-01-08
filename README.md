@@ -1,28 +1,27 @@
 # GEOG863: Adding Search & Query to a US Wildfires Map 
 
 
-<b>Project Description:</b><br>
-<b>"US Wildfire Map with Search and Query Functionality"</b>
+<b>Project Description: US Wildfire Map with Search and Query Functionality</b><br>
 
 This project aims to provide an interactive and informative map visualization of wildfires across the United States from the years 2000 to 2018. Leveraging the ArcGIS API for JavaScript, the map incorporates advanced features such as a Class Breaks Renderer for dynamically categorizing wildfire sizes, a search widget for querying specific wildfire incidents, and a legend for enhanced map interpretation.
 
 <b>Key Features and Components:</b>
 
-1. Basemap and Scene View: The project starts by creating a new Map instance with a dark-gray basemap and world elevation ground. A SceneView is initialized with a predefined camera position, heading, and tilt, providing users with an immersive three-dimensional view.
+<b>1. Basemap and Scene View:</b> The project starts by creating a new Map instance with a dark-gray basemap and world elevation ground. A SceneView is initialized with a predefined camera position, heading, and tilt, providing users with an immersive three-dimensional view.
 
-2. Class Breaks Renderer: A Class Breaks Renderer is defined for the feature layer, dynamically categorizing wildfires based on the size in acres. The renderer employs different colors to represent distinct size ranges, enhancing the visual representation of the data.
+<b>2. Class Breaks Renderer:</b> A Class Breaks Renderer is defined for the feature layer, dynamically categorizing wildfires based on the size in acres. The renderer employs different colors to represent distinct size ranges, enhancing the visual representation of the data.
 
-3. Popup Template: A popup template is defined for the feature layer, offering detailed information about each wildfire incident. The template includes fields such as incident name, state, fire year, acres burned, and the land agency responsible.
+<b>3. Popup Template:</b> A popup template is defined for the feature layer, offering detailed information about each wildfire incident. The template includes fields such as incident name, state, fire year, acres burned, and the land agency responsible.
 
-4. Search Widget: A Search widget is integrated into the map, enabling users to search for specific wildfire incidents by name. The widget is configured to search for incident names within the feature layer, providing a user-friendly way to explore and locate relevant information.
+<b>4. Search Widget:</b> A Search widget is integrated into the map, enabling users to search for specific wildfire incidents by name. The widget is configured to search for incident names within the feature layer, providing a user-friendly way to explore and locate relevant information.
 
-5. User Interaction: The project prompts users to enter a fire year between 2000 and 2018, dynamically filtering the displayed wildfires based on the chosen year. This interactive element allows users to explore the history of wildfires for a specific time period.
+<b>5. User Interaction:</b> The project prompts users to enter a fire year between 2000 and 2018, dynamically filtering the displayed wildfires based on the chosen year. This interactive element allows users to explore the history of wildfires for a specific time period.
 
-6. Legend Widget: A Legend widget is created to serve as a key for interpreting the color-coded representation of wildfires based on their size. The legend is positioned in the bottom-left corner of the map view for easy reference.
+<b>6. Legend Widget:</b> A Legend widget is created to serve as a key for interpreting the color-coded representation of wildfires based on their size. The legend is positioned in the bottom-left corner of the map view for easy reference.
 
-7. Map Display: The feature layer, configured with the Class Breaks Renderer, popup template, and year-specific query, is added to the map display. This layer showcases wildfires across the United States, providing a comprehensive view of historical fire incidents.
+<b>7. Map Display:</b> The feature layer, configured with the Class Breaks Renderer, popup template, and year-specific query, is added to the map display. This layer showcases wildfires across the United States, providing a comprehensive view of historical fire incidents.
 
-8. Enhanced User Interface: The search widget is strategically placed in the top-right corner, while the legend widget is positioned in the bottom-left corner, contributing to an organized and user-friendly interface.
+<b>8. Enhanced User Interface:</b> The search widget is strategically placed in the top-right corner, while the legend widget is positioned in the bottom-left corner, contributing to an organized and user-friendly interface.
 
 Overall, this project delivers an engaging and interactive USA Wildfire Map, allowing users to explore and query wildfire incidents based on various parameters. The integration of search functionality, dynamic rendering, and informative popups enhances the overall user experience, making it an invaluable tool for understanding and analyzing wildfire data.
 
